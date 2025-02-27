@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/css/style.css">
+  <script type="module" defer src="./script/main.js"></script>
+  <link rel="shortcut icon" href="./icon/logo-foxminded.svg" type="image/x-icon">
+  <title>task2_5</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="header__logo">
+      <img src="./icon/logo.svg" alt="foxminded">
+    </div>
+
+  </header>
+
+  <main class="main">
+    <div class="main__container">
+
+        <form class="search" autocomplete="off">
+          
+          <input 
+            class="search__input"
+            type="text"
+            name="input-city"
+            placeholder="Enter your city"
+            autofocus
+          >
+
+          <button type="reset" class="search__btn-reset"></button>
+          <p class="search__information-display"></p>
+        </form>
+
+      <section class="weather-forecast">
+        
+        <div class="weather-forecast__container">
+
+          <article class="weather-forecast__temperature">
+  
+            <p class="weather-forecast__temperature--day"></p>
+  
+            <div class="weather-forecast__wrapper">
+              <p class="weather-forecast__night-condition"></p>
+              <p class="weather-forecast__temperature--night"></p>
+            </div>
+  
+          </article>
+  
+          <article class="weather-forecast__location">
+            <p class="weather-forecast__condition"></p>
+            <p class="weather-forecast__country"></p>
+          </article>
+  
+          <picture class="weather-forecast__image">
+            <img src="./icon/fox.svg" alt="forecast-foxy">
+
+            <div class="weather-forecast__image--icons"></div>
+          </picture>
+
+        </div>
+
+      </section>
+
+      <section class="weekly-weather-forecast"></section>
+      
+    </div>
+  </main>
+</body>
+</html>

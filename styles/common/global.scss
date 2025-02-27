@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  background-color: $white;
+}
+
+image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}

@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  margin: 40px 0;
+
+  &__logo {
+    display: inline-block;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      z-index: -1;
+
+      width: 20px;
+      height: 16px;
+
+      background-color: $pink;
+    }
+  }
+}
